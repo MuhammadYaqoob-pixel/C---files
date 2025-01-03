@@ -9,10 +9,9 @@ int main()
 	string fulname=firstname+lastname;
 	//cout<<"fulname is"<<endl;
 	cout<<fulname;
+	*/
 	
-	//
-	/
-	
+
 	
 	
 	
@@ -23,12 +22,11 @@ int main()
 	string mystring="MUHAMMAD YAQOOB";
 	cout<<endl;
 	cout<<"size of string is:"<<txt.size();	
-//	*/
-/*
+
 cout<< "mystring[1]";
 	mystring [1] ='A';
 	cout<<mystring;
-*/
+
 string mystring ="hello";
 mystring[0]='j';
 cout<<mystring;
