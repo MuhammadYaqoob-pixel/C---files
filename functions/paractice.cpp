@@ -1,24 +1,21 @@
 #include<iostream>
 using namespace std;
 // int sum();
-void sum()
-{
-int a, b;
-cout<<"enter ist value"<<endl;
-cin>>a;
-cout<<"enter 2nd value "<<endl;
-cin>>b;
-int c=a+b;
-cout<<"sum is:"<<c<<endl;
-
-
-
+// void sum(){
+//     int a,b;
+//     cout<<"enter first number"<<endl;
+//     cin>>a;
+//     cout<<"enter second number"<<endl;
+//     cin>>b;
+//    int c=a+b;
+//     cout<<"result ="<<c<<endl;
+//     }
+int sum(int a, int b){
+    return a+b;
 }
-int main()
-{
-sum();
-sum();
+int main(){
 
+ cout<<sum(2,5);
 
 
 
@@ -35,7 +32,7 @@ sum();
 // sum();
 
 
-    return 0;
+
 }
 // int sum(){
 //     int a, b;
