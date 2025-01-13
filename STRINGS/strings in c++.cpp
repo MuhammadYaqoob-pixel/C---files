@@ -50,7 +50,7 @@ cout<<"your fulname is:" " "<<fulname<<endl;
 
 for(int i=1; i<=100; i++){
 
-	cout<<"sorry baby"<<endl;
+	cout<<"Hello world"<<endl;
 }
 
 	return 0;
