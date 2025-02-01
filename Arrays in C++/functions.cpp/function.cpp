@@ -50,41 +50,56 @@
 
 //     return 0;
 // }
+// #include <iostream>
+// #include <iomanip>
+// using namespace std;
+
+// int main() {
+    // double purchaseAmount;
+    // char membershipStatus;
+
+    // // Step 1: Ask the user for their total purchase amount
+    // cout << "Enter the total purchase amount: $";
+    // cin >> purchaseAmount;
+
+    // // Step 2: Check if the purchase amount is greater than $100
+    // if (purchaseAmount > 100) {
+    //     // Step 3: Ask if the user is a premium member
+    //     cout << "Are you a premium member? (Y/N): ";
+    //     cin >> membershipStatus;
+
+    //     // Step 4: Offer a discount based on membership status
+    //     if (membershipStatus == 'Y' || membershipStatus == 'y') {
+    //         // Premium member: 20% discount
+    //         purchaseAmount -= purchaseAmount * 0.20;
+    //         cout << "You are a premium member! You get a 20% discount." << endl;
+    //     } else {
+    //         // Non-premium member: 10% discount
+    //         purchaseAmount -= purchaseAmount * 0.10;
+    //         cout << "You are not a premium member. You get a 10% discount." << endl;
+    //     }
+    // } else {
+    //     cout << "No discount applied as the total purchase amount is less than $100." << endl;
+    // }
+
+    // // Step 5: Output the final purchase amount after discount (if any)
+    // cout << fixed << setprecision(2); // Set decimal precision to 2 places
+    // cout << "Your final purchase amount is: $" << purchaseAmount << endl;
+// string a = "Number: ";
+// int b = 10;
+// cout << a + b <<endl;
+//     return 0;
+// }
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
 int main() {
-    double purchaseAmount;
-    char membershipStatus;
-
-    // Step 1: Ask the user for their total purchase amount
-    cout << "Enter the total purchase amount: $";
-    cin >> purchaseAmount;
-
-    // Step 2: Check if the purchase amount is greater than $100
-    if (purchaseAmount > 100) {
-        // Step 3: Ask if the user is a premium member
-        cout << "Are you a premium member? (Y/N): ";
-        cin >> membershipStatus;
-
-        // Step 4: Offer a discount based on membership status
-        if (membershipStatus == 'Y' || membershipStatus == 'y') {
-            // Premium member: 20% discount
-            purchaseAmount -= purchaseAmount * 0.20;
-            cout << "You are a premium member! You get a 20% discount." << endl;
-        } else {
-            // Non-premium member: 10% discount
-            purchaseAmount -= purchaseAmount * 0.10;
-            cout << "You are not a premium member. You get a 10% discount." << endl;
-        }
-    } else {
-        cout << "No discount applied as the total purchase amount is less than $100." << endl;
+    int i, j;
+    
+    for(i = 1, j = 1; i < 3, j < 5; i++, j++) {
+        cout << "Value of i = " << i << endl;
+        cout << "Value of j = " << j << endl;
     }
-
-    // Step 5: Output the final purchase amount after discount (if any)
-    cout << fixed << setprecision(2); // Set decimal precision to 2 places
-    cout << "Your final purchase amount is: $" << purchaseAmount << endl;
 
     return 0;
 }
